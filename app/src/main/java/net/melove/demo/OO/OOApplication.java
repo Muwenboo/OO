@@ -13,10 +13,7 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * Created by lz on 2016/4/16.
- * 项目的 Application类，做一些项目的初始化操作，比如sdk的初始化等
- */
+
 public class OOApplication extends android.app.Application {
 
     // 上下文菜单
