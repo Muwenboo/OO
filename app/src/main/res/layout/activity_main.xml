@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+        <FrameLayout
+            android:id="@+id/fl_main"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+        </FrameLayout>
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <RadioButton
+                android:id="@+id/rb_mian_chat"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@mipmap/chat"
+                android:padding="15dp"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_main_setting"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@mipmap/setting"
+                android:padding="15dp"
+                />
+            <RadioButton
+                android:id="@+id/rb_main_about"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@mipmap/about"
+                android:padding="15dp"
+
+                />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+

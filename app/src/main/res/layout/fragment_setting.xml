@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back2"
+    >
+
+    <TextView
+        android:drawableLeft="@mipmap/setting"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <TextView
+            android:text="setting"
+            android:textSize="80dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </ScrollView>
+
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:textAllCaps="false"
+        android:id="@+id/bt_setting_out"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="退出登录" />
+
+</LinearLayout>

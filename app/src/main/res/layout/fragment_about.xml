@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/back_introduct"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:background="@mipmap/back_login"
+                android:layout_width="500dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:src="@mipmap/xmjj"
+                />
+            <TextView
+                android:layout_height="700dp"
+                android:layout_width="match_parent"
+                android:textColor="#D2691E"
+                android:text="      此项目为一款基于环信SDK来实现实时通信的可视化聊天app，可实现在线注册、登录、一对一聊天等功能。\n
+     项目共采用7项Layout布局、5项Activity以及各适配类10余项，代码共2000余行，项目运用及完成但未运用到的技术有线程池、Fragment实现嵌入ActivityUI、RecycleView瀑布流等。
+     \n 项目分工：\n                      代码编写：李明轩、王宇翔、牟文波\n                      程序调试：王宇翔、李明轩、牟文波\n                      资料查找：牟文波、王宇翔、李明轩\n                      文案：王宇翔"
+
+                android:textSize="25dp"
+                android:background="@mipmap/back_login"/>
+
+            <ImageView
+                android:background="@mipmap/back_login"
+                android:layout_width="500dp"
+                android:layout_height="100dp"
+                android:paddingLeft="50dp"
+                android:gravity="center"
+                android:src="@mipmap/cyjj"
+                />
+
+
+            <ImageView
+
+                android:layout_width="320dp"
+                android:layout_height="400dp"
+                android:paddingLeft="-40dp"
+                android:src="@mipmap/wyx" />
+
+
+
+            <ImageView
+                android:background="@mipmap/back_login"
+                android:padding="1dp"
+                android:layout_width="130dp"
+                android:layout_height="400dp"
+                android:src="@mipmap/fyss"
+                android:paddingRight="120dp"
+                android:layout_marginTop="-400dp"
+                android:layout_marginLeft="280dp" />
+
+            <TextView
+                android:id="@+id/ab_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="      王宇翔同学，江湖人称王于晏，组内颜值担当，为完成项目通宵达旦，焚膏继晷，在此我们为他鼓掌（掌声雷动）。\n     醉后不知天在水，满船清梦压星河,潇洒为所求。\n     或浅薄平庸，或金玉其外而败絮其中，但那彩虹般绚丽的她亦为所求。\n\n"
+                android:textColor="#FAFAD2"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/lmx_iv1"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:padding="2dp"
+                android:layout_marginLeft="130dp"
+                android:src="@mipmap/lmx" />
+
+            <ImageView
+                android:background="@mipmap/back_login"
+                android:layout_width="130dp"
+                android:layout_height="400dp"
+                android:src="@mipmap/kkqt"
+                android:paddingLeft="-30dp"
+                android:layout_marginTop="-400dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      李明轩同学，江湖人称诸葛轩，组内智慧担当，奇门遁甲，五行八卦无所不通，张良比其略逊一筹，鬼谷闻其自叹不如，中华上下五千年无人能出其右也。\n     银鞍照白马，飒沓如流星。十步一人而千里无痕，是傲，\n      怒发冲冠，凭栏处潇潇雨歇。百战金甲黄沙，长弓胡虏天山，是狂。\n\n"
+                android:textColor="#FAFAD2"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:background="@mipmap/back_login"
+                android:padding="1dp"
+                android:layout_width="600dp"
+                android:layout_height="100dp"
+                android:paddingLeft="-0dp"
+                android:src="@mipmap/weqb"
+                />
+
+            <ImageView
+                android:id="@+id/mwb_iv1"
+                android:layout_marginLeft="-108dp"
+                android:layout_width="700dp"
+                android:layout_height="400dp"
+                android:padding="1dp"
+                android:src="@mipmap/mwb" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      牟文波同学,江湖人称牟浩南，组内社会担当，那年鲜衣怒马，一骑平川，一人血战上河滩、扛下铁锣湾。 \n    苟利国家生死以，岂因祸福避趋之是他心中执着，\n    醉卧沙场君莫笑，纵死尤闻侠骨香是他骨中追求。\n\n"
+                android:textColor="#FAFAD2"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:background="@mipmap/back_login"
+                android:layout_width="500dp"
+                android:layout_height="100dp"
+                android:paddingLeft="150dp"
+                android:src="@mipmap/xz"
+
+                />
+            <TextView
+                android:layout_height="400dp"
+                android:layout_width="match_parent"
+                android:textColor="#D2691E"
+                android:text="\n   本项目由中国石油大学，海洋与空间信息学院，通信工程专业学生王宇翔、李明轩、牟文波共同完成，
+仅供学习娱乐，不得商用。另，因作者水平有限，项目部分代码有参考，界面简陋，功能单一，不完善处甚多，望见谅。\n
+                                      -2020/6/30"
+
+                android:textSize="25dp"
+                android:background="@mipmap/back_login"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

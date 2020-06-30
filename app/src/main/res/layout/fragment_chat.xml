@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back6"
+    >
+    <TextView
+        android:drawableLeft="@mipmap/chat"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat" />
+
+    <EditText
+        android:id="@+id/ec_edit_chat_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:hint="对方的用户名"/>
+
+
+    <Button
+        android:id="@+id/ec_btn_start_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发起聊天"/>
+
+</LinearLayout>
